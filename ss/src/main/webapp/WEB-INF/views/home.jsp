@@ -52,14 +52,63 @@
 	</ul>
 </div>
 
-<div><h2>B E S T</h2></div>
-	<div class = "footer">
-		<div>
-		<img src
+<div class="best"><h2>B E S T</h2></div>
+	<div class ="items">
+		<div class = "footer">
+			<div class = "b-image">
+			<img src="${pageContext.request.contextPath}/resources/image/b-item1.jpg">
+			</div>
+				<div class = "b-name">
+				컨버스
+				</div>
+				<div class = "b-price">
+				32000원
+				</div>
 		</div>
-		<div>
+		
+		<div class="footer">
+			<div class="b-image">
+			<img src="${pageContext.request.contextPath}/resources/image/b-item2.jpg">
+			</div>
+				<div class="b-name">
+				뉴발란스 운동화
+				</div>
+				<div class="b-price">
+				32000원
+				</div>
 		</div>
-		<div>
+				<div class="footer">
+			<div class="b-image">
+			<img src="${pageContext.request.contextPath}/resources/image/b-item3.jpg">
+			</div>
+				<div class="b-name">
+				나이키 범고래
+				</div>
+				<div class="b-price">
+				32000원
+				</div>
+		</div>
+				<div class="footer">
+			<div class="b-image">
+			<img src="${pageContext.request.contextPath}/resources/image/b-item4.jpg">
+			</div>
+				<div class="b-name">
+				뉴발란스 운동화
+				</div>
+				<div class="b-price">
+				32000원
+				</div>
+		</div>
+		<div class="footer">
+			<div class="b-image">
+			<img src="${pageContext.request.contextPath}/resources/image/b-item5.jpg">
+			</div>
+				<div class="b-name">
+				크록스
+				</div>
+				<div class="b-price">
+				32000원
+				</div>
 		</div>
 	</div>
 
