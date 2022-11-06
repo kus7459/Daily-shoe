@@ -14,7 +14,7 @@
 <body>
 <div class="top">
 	<div class="top-left">
-	<a href="home.jsp"><img src="${pageContext.request.contextPath}/resources/image/Logo.PNG"></a>
+	<a href="/shop"><img src="${pageContext.request.contextPath}/resources/image/Logo.PNG"></a>
      </div>
 	<div class="search-box">
   <form action="." method="post">
@@ -25,8 +25,8 @@
     </div>
     <div class="top-right">
     	<ul>
-    		<li><a href="${pageContext.request.contextPath}/WEB-INF/views/Login.jsp">로그인</a></li>
-    		<li><a href="Join.jsp">회원가입</a></li>
+    		<li><a href="Login.do">로그인</a></li>
+    		<li><a href="Join.do">회원가입</a></li>
     		<li>마이 페이지</li>
     		<li>장바구니</li>
     	</ul>
